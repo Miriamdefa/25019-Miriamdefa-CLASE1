@@ -1,0 +1,140 @@
+<!--DOCTYPE html es el tipo de documento para el html 5-->
+<!DOCTYPE html>
+<html lang="en" style="border: 1px solid blue;">
+    <head>
+        <meta charset="UTF -8">
+        <meta name="viewport" content="width=device-with, inicial-scale=1.0">
+        <title>Clase1y2</title>
+        <!--la etiqueta head tiene metadatos que especifican a toda la página como el nombre y tamaño, en este caso el viewport -->
+    </head>
+    <body style="border: 1px solid red;">
+        <header style="border: 1px solid green;">   
+            <link rel="stylesheet" href="css/styles.css">
+            <!--Acá estamos dentro del header-->
+            <h1>Título principal</h1>
+            <h2>Subtítulo</h2>
+            <h4>se agrega logo con img</h4>
+            <img src="Multimedia/img/patita2.png" alt="Logo">
+            <h4>agrego audio</h4>
+            <audio controls source src="Multimedia/audio/desaprender.ogg" type="audio/ogg">Tu navegador no soporta la reproducción de audio.</audio>
+        </header>
+        <nav style="border: 1px solid rgb(119, 0, 255);">
+            <!--Acá estamos dentro del nav-->
+                <ul>
+                    <li> <a href="">Inicio</a></li>
+                    <li> <a href="">Nosotros</a></li>
+                    <li> <a href="">Productos</a></li>
+                    <li> <a href="">Servicios</a></li>
+                    <li> <a href="">Contacto</a></li>
+                </ul>
+        </nav>
+
+        <main style="border: 1px solid grey;">
+<!--Acá estamos dentro del main-->
+ <!--puede haber varias secciones dentro del main-->
+            <section style="border: 1px solid yellowgreen;">
+                <h4>Párrafos y estilos</h4>
+                <p>
+                    En este párrafo p, hace saltos de línea, resalto con strong para <strong>Negrita</strong> uso em para cursiva o <em>itálica</em> y uso s para <s>tachado</s> 
+                </p>
+                <p> <!--párrafo genérico para agregara hasta que se defina el texto-->
+                    <strong>Lorem</strong> ipsum dolor <em>sit amet</em> consectetur <s>adipisicing</s> elit. Suscipit esse magnam voluptate porro, eveniet culpa unde expedita vitae similique ipsam fugiat, tempore quia repellendus dolorum quaerat velit beatae reiciendis ullam.
+                    Quae repellat fuga corporis, error aperiam nemo placeat sed reprehenderit perferendis tempore perspiciatis eligendi ullam ad vero eius quasi quisquam voluptates omnis atque quia? Obcaecati, fuga aut. Illum, odio quae!
+                    Corporis nobis dignissimos sed architecto voluptas optio sit! Sit libero quos aliquam sint pariatur reprehenderit. Repudiandae consequuntur similique, dicta dignissimos, tempore a incidunt iure officia fugiat fugit alias? Enim, repudiandae!
+                </p>
+                
+            </section>
+            <section style="border: 1px solid yellowgreen;">
+                <h3>Listas Ordenadas y desordenadas</h3>
+                <h4>Ordenadas</h4>
+                <ol>
+                    <Li>Enero</Li>
+                    <Li>Febrero</Li>
+                    <Li>Marzo</Li>
+                </ol>
+                <h4>Desordenadas o No ordenadas</h4>
+                <ul>
+                    <Li>Lunes</Li>
+                    <Li>Martes</Li>
+                    <Li>Miércoles</Li>
+                </ul>  
+            </section>
+            <section style="border: 1px solid yellowgreen;">
+               <h3>Enlaces</h3>
+               <h4>Enlace externo</h4>
+               <a href="https://www.google.com.ar">Google AR</a>
+               <h4>Enlace a Mails</h4>
+               <a href="mailto:miriamdefa@hotmail.com">Enviar Correo</a>
+               <h4>Descargas - Enlaces de archivos</h4>
+               <a href="Multimedia/img/Parque los alerces.jpg" download>Descargar foto Parque los Alerces</a>
+            </section>
+            <section style="border: 1px solid yellowgreen;">
+                <h3>Elementos en bloque / en línea</h3>
+                <h4>Bloque - block</h4>
+                <!--div es un contenedor genérico en bloque-->
+                <div style="border: 1px solid rgb(200, 35, 229);">Div1 </div>
+                <div style="border: 1px solid rgba(250, 23, 231);">Div2 </div>
+                <div style="border: 1px solid rgba(225, 50, 192);">Div3 </div>
+                <h4>En línea</h4>
+                <span style="border: 1px solid rgb(35, 190, 229);">Span1</span>
+                <span style="border: 1px solid rgb(45, 190, 229);">Span2</span>
+                <span style="border: 1px solid rgb(55, 190, 229);">Span3</span>
+            </section>
+            <section style="border: 1px solid yellowgreen;">
+                <h3>Imágenes</h3>
+                <h4>Etiqueta img</h4>
+                <img src="Multimedia/img/Lis.jpeg" alt="Lis mi compañera de 4 patas" width="600" height="400">
+                <h4>Etiqueta Picture</h4>
+                <picture>
+                    <!--de acuerdo al tipo de pantalla puedo definir distintas imágenes para diseño adaptativo-->
+                    <source media="(min-width: 650px)" srcset="Multimedia/img/Lis.jpeg">
+                    <source media="(min-width: 465px)" srcset="Multimedia/img/Lis.jpeg">
+                    <img src="Multimedia/img/Lis.jpeg" style="width: auto;" alt="Foto Lis">
+                </picture>
+                <h4>Logo svg</h4>
+                
+            </section>
+            <section>
+                <h3>Clase 2 - Práctico #2</h3>
+                <h4>Imagen con img</h4>
+                <img src="Multimedia/img/Lis.jpeg" style="width: auto;" alt="Foto Lis">
+                <h4>visualizar página web con iframe</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25405.07456211606!2d-56.98371774234682!3d-37.25638275740832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b606086ff1313%3A0x1d22cd838e57d5d0!2sPlaya%20Villa%20Gesell!5e0!3m2!1ses!2sar!4v1744758673956!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h4>insertar video <em>con subtítulos</em></h4>
+                <video controls>
+                    <source src="Multimedia/video/amaneceMar.mp4" type="video/mp4">
+                    <track src="subtitulos.vtt" kind="Subtitles" srclang="es" label="Español">
+                </video>
+            </section>
+            <section style="border: 1px solid rgb(46, 12, 197);">
+                <h3>Formulario</h3>
+                <form
+                       action="https://formspree.io/f/mldjajez" method="POST">
+                     <label>
+                            Your email:
+                            <input type="email" name="email">
+                     </label>
+                     <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                     </label>
+                          <!-- your other form fields go here -->
+                    <label>
+                        <select name="Opciones">
+                            <option value="Opción 1">Opción 1</option>
+                            <option value="Opción 2">Opción 2</option>
+                            <option value="Opción 3">Opción 3</option>
+                        </select>
+                    </label>
+                     <button type="submit">Send</button>
+                 </form>
+            </section>
+        </main>
+        <footer style="border: 1px solid yellow;">
+            <!--Acá estamos dentro del footer-->
+            <p>Este es el pie de página en general se ubica la información de <strong>CONTACTO</strong></p>
+            <p><strong>miriamdefa@hotmail.com</strong></p>
+            
+        </footer>
+    </body>
+</html>
