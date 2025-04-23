@@ -16,8 +16,8 @@
              text-align:center;
            }
        }      
-  }  
-  {nav
+   }  
+   {nav
     ul {
         list-style: none;
         text-decoration:none;
@@ -25,7 +25,7 @@
             background-color: rgba(18, 92, 228, 0.89);
            }
      }
-  }
+   }
   {footer
     .highlight {
         background-color: rgb(4, 4, 80);
