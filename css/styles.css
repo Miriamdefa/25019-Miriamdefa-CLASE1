@@ -1,5 +1,5 @@
 {body 
-  {header
+   .header {
       .highlight {
         background-color: rgb(4, 4, 80);
        
@@ -17,7 +17,7 @@
            }
        }      
    }  
-   {nav
+   .nav {
     ul {
         list-style: none;
         text-decoration:none;
@@ -26,7 +26,7 @@
            }
      }
    }
-  {footer
+  .footer {
     .highlight {
         background-color: rgb(4, 4, 80);
      }
